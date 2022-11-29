@@ -8,8 +8,7 @@ public class SampleResource {
 
     @RequestMapping("/")
     public String hello() {
-        String res = "                                       Welcome to SpSoft"
-        return res;
+        return "Welcome to SpSoft";
     }
 
 }
